@@ -53,7 +53,7 @@
 
 <div class="form-group">
     <label for="body">Body</label>
-    <textarea name="body" id="body" class="form-control">{{old('body') ?? $post->body}}</textarea>
+    <textarea name="body" id="body" class="form-control" rows="10">{{old('body') ?? $post->body}}</textarea>
     <div class="mt-2 text-danger">
         @error('body')
         {{$message}}
