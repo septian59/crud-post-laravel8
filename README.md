@@ -7,12 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##CRUD POST Laravel 8 ?
+### CRUD POST Laravel 8 ?
 Merupakan projek pribadi saya, yang berupa CRUD simple blog post menggunakan Laravel 8
 
-##Fitur 
+### Fitur 
 - Autentikasi Penulis
-- Add, Show, Edit Post
+- Add, Show, Edit & Delete Post
 - Penulis
 - Kategori
 - Tag
@@ -20,7 +20,7 @@ Merupakan projek pribadi saya, yang berupa CRUD simple blog post menggunakan Lar
 ##Release Date
 **Relase 15 May 2021
 
-##Install
+## Install
 1. **Clone Repository**
 ```bash
 git clone https://github.com/septian59/crud-post-laravel8.git
