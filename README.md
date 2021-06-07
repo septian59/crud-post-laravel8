@@ -20,14 +20,16 @@ Merupakan projek pribadi saya, yang berupa CRUD simple blog post menggunakan Lar
 -------------
 
 ## Release Date
-**Relase 15 May 2021
+**Relase 15 May 2021**
 
 -------------
 
 ## Default Account Testing
 **Writer Account**
--Username: septian
--Password: password
+- Username: septian
+- Password: password
+
+-------------
 
 ## Install
 1. **Clone Repository**
