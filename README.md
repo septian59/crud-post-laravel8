@@ -38,7 +38,14 @@ git clone https://github.com/septian59/crud-post-laravel8.git
 cd crud-post-laravel8
 composer install
 ```
-2. **Edit dan tambahkan di baris ``.env``**
+2. **Rename atau Coppy ``.env.example`` ke ``.env``**
+
+3. **Jalankan perintah**
+```bash
+php artisan key:generate
+```
+
+4. **Edit dan tambahkan di baris ``.env``**
 ```
 DB_PORT=3306
 DB_DATABASE=<YOUR DATABASE NAME>
@@ -47,12 +54,12 @@ DB_PASSWORD=<YOUR DATABASE PASSWORD>
 
 FILESYSTEM_DRIVER=public //tambahkan baris ini
 ```
-3. **Migrate database dan seed**
+5. **Migrate database dan seed**
 ```bash
 php artisan refresh:database
 ```
 
-4. **Jalankan Website**
+6. **Jalankan Website**
 ``` bash
 php artisan serve
 ```
